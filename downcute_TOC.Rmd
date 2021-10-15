@@ -1,0 +1,136 @@
+---
+title: "Spatial Analysis Portfolio"
+author: "Ellie Sheild"
+date: "10/14/2021"
+output: 
+  rmdformats::downcute
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Throughout the course of the semester, my skills and confidence in developing maps grew. I went from never having opened an R session, to actually enjoying learning through the tutorials, troubleshooting, and creating maps that spatially represent key concepts learned in the readings and lectures. This semester has shown me what I deep reverence I hold for R. It is amazing that a computer program can evoke such emotional volatility: The frustration over hitting a wall, and needing to find a workaround. The anxiety and anticipation watching the red stop sign as a code runs. Best of all, the pure joy when that code choke runs and you've created a map you can call your own. I have also learned the importance of collaborative work, and the fun in the challenge of working through problems as a team. While this portfolio is a snapshot into what I have learned this summer, it provided me the opportunity to reflect on and be proud of how far I have come in just six weeks. I also give credit to my Professor, Carole Voulgaris, TAs Emma, Megan, and Jonathan, and my fellow MUPS students, without whom this portfolio would not exist. Thank you for taking the time to help me grow this semester, and I hope you all enjoy my VIS2128 portfolio. 
+
+
+Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying relationships among point and polygon layers based on distance
+* Aggregating point data to a layer of polygons
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+* Georeferencing a raster image
+* Displaying data on an interactive map
+
+# Mumbai, India
+
+Rob Kitchen's et al., research "Thinking about Maps" discusses the implications of map making and cartography on the expansion of colonialism. The impacts of colonialism are evidenced in changing geographic boundaries over time of jurisdictions. My focus for this particular project was Mumbai, India, which was occupied by the British empire from 1858-1947.
+
+## Administrative Boundaries 
+
+Administrative Boundaries, pre-colonial Mumbai demonstrates the differences in relation to a map created by the British at the height of their rule in 1900 to a precolonial boundary of 1849 (blue) and jurisdictional growth over time during the rule of 1931. 
+
+This map demonstrates the following skills:
+* Displaying raster data on a map
+* Georeferencing a raster image
+
+[![](thumbnails/Sheild_Week_3_final.png)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Mumbai_final.pdf){target="_blank"}
+
+# Middlesex County, MA
+
+Having just moved to Massachusetts, I was eager to pull census data to better understand the spatial segregation within my new community. Contemplating the biases in my own data, as well as understanding the data collection around me, I decided for my individual assignment to focus on the percent of White-identifying individuals from the 2010 Census within Middlesex County. My goal in the interactive map is to guide the viewer towards trends of segregated areas. I hope to eventually overlay more data on this map to analysis how public resources, like libraries, schools, and parks, are dispersed in relation to the race of the area. I hope any observed disparities will foster critical thinking in ways we can better integrate and diversify our communities. I also intend to show this map with friends living in Middlesex and compare reactions with my family in North Carolina to observe any spatial optimism bias (Retchless) in the racial segregation of Middlesex, MA.
+
+## Interactive Map
+This interactive map demonstrates the following skills: 
+
+* Displaying data on an interactive map
+
+[![](thumbnails/Middlesex_interactive.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Middlesex_white.html){target="_blank"}
+
+# O'ahu, Hawaii
+
+Having never traveled to Hawaii, I was shocked to learn in a reading that Hawaii literally experienced forced state-hood in 1959 against the wishes of the people. In a reading for another class, I recall shortly thereafter Hawaii was one of the first state's to introduce state-wide land use growth management, and only allocated 4% of their total lands to Urban classifications. The unmanaged encroachment of tourism on the state, and threat to both the agricultural use of sugar and pineapple as well as environmental impacts inspired me to assess the infrastructure within O'ahu, its largest island.
+
+## Spatial RElationship of Infastructure of Amenities
+
+This map highlights infrastructure of bus routes on the island in relation to the parks. Of the 550 parks on O'ahu, 91% of those parks fall within 300 m of a bus route. 
+
+This map demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+
+* Calculating and displaying relationships among point and polygon layers based on distance
+
+[![](thumbnails/Oahu_1.png)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Oahu_1.pdf){target="_blank"}
+
+## Concentration of Urban Tourism
+The above move highlights the 1961 impacts of a limited 4% of land area designated as urban. Exploring the neighborhoods on O'ahu, it is clear that most neighborhoods on the island have between 0-10 hotels, in contrast to the urban area of Honolulu boasting over 80 hotels. 
+
+This map demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+
+* Calculating and displaying relationships among point and polygon layers based on distance
+
+[![](thumbnails/Oahu_2.png)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Oahu_hotels_final.pdf){target="_blank"}
+
+# Cambridge, MA
+
+## Public Art Installations by Neighborhood Conservation Districts
+
+This map highlights a possible relationship between indentified conservation districts (polygon) and public art installations as point data. 
+
+This map demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/Cambridge_art.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Cambridge_Art_Nhood.pdf){target="_blank"}
+
+## Travel time to school
+
+Inspired by my own 2.5 mile commute either on bus or bike to school, I wanted to map the commuting experiences of other students in Cambridge. This map shows isochrones based on transit travel times to the nearest school. 
+
+This map demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/Cambridge_schools_1.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Cambridge_schools_1_final.pdf){target="_blank"}
+
+## Accessibility
+
+Furthering the work in the above map, I worked using the distance-decay function to identify the accessibility of transit stops throughout Cambridge within a 5, 10, and 15 minute walk from any given point in that isochrone. 
+
+This map demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+
+[![](thumbnails/Cambridge_walk.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Cambridge_walk_final.pdf){target="_blank"}
+
+## Polygon Mapping
+In the below map, I transformed a map of the transit stops as grid cells to polygons on a sqaure grid. To make the map easier to read, I combined adjacent areas with the same value as a merged single polygon. The following map shows accessibility of transit stops within a 0-15 minute walk.
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+
+[![](thumbnails/Cam_poly_2.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/CAM_polygons_cells_final.pdf){target="_blank"}
+
+## Contour Mapping
+Having always administered the contour lines on topographic maps, I continued to pull polygons from grid cells and then have the polygon boundaries appear as contours. The following map shows the pedestrian access to the number of transit stops (increments of 3) overlaid on the street network in Cambridge, MA. 
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+
+[![](thumbnails/Cam_Contours.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/CAM_contours_final.pdf){target="_blank"}
