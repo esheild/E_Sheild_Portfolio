@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-Throughout the course of the semester, my skills and confidence in developing maps grew. I went from never having opened an R session, to actually enjoying learning through the tutorials, troubleshooting, and creating maps that spatially represent key concepts learned in the readings and lectures. This semester has shown me what I deep reverence I hold for R. It is amazing that a computer program can evoke such emotional volatility: The frustration over hitting a wall, and needing to find a workaround. The anxiety and anticipation watching the red stop sign as a code runs. Best of all, the pure joy when that code choke runs and you have created a map you can call your own. I have also learned the importance of collaborative work, and the fun in the challenge of working through problems as a team. While this portfolio is a synthesis of what I have learned this semester, it provided me the opportunity to reflect on and be proud of how far I have come in just six weeks.
+Throughout the course of the semester, my skills and confidence in developing maps grew. I went from never having opened an R session, to actually enjoying learning through the tutorials, troubleshooting, and creating maps that spatially represent key concepts learned in the readings and lectures. This semester has shown me what deep reverence I hold for R. It is amazing that a computer program can evoke such emotional volatility: The frustration over hitting a wall, and needing to find a workaround. The anxiety and anticipation watching the red stop sign as a code runs. Best of all, the pure joy when that code chunk runs and you have created a map you can call your own. I have also learned the importance of collaborative work, and the fun in the challenge of working through problems as a team. While this portfolio is a synthesis of what I have learned this semester, it provided me the opportunity to reflect on and be proud of how far I have come in just six weeks.
 
 I believe my portfolio demonstrates each of the following skills:
 
@@ -102,7 +102,6 @@ This map demonstrates the following skills:
 
 * Displaying multiple vector layers on the same map
 * Calculating and displaying accessibility, based on travel time
-* Converting between raster layers and vector layers
 * Displaying raster data on a map
 
 [![](thumbnails/Cambridge_walk.jpg)](https://esheild.github.io/E_Sheild_Portfolio/fullsize/Cambridge_walk_final.pdf){target="_blank"}
