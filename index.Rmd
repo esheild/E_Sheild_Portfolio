@@ -55,7 +55,7 @@ This interactive map demonstrates the following skills:
 
 Having never traveled to Hawaii, I was shocked to learn in a reading that Hawaii literally experienced forced state-hood in 1959 against the wishes of the people. In a reading for another class, I recall shortly thereafter Hawaii was one of the first state's to introduce state-wide land use growth management, and only allocated 4% of their total lands to Urban classifications. The unmanaged encroachment of tourism on the state, and threat to both the agricultural use of sugar and pineapple as well as environmental impacts inspired me to assess the infrastructure within O'ahu, its largest island.
 
-## Spatial RElationship of Infastructure of Amenities
+## Spatial Relationship of Infastructure of Amenities
 
 This map highlights infrastructure of bus routes on the island in relation to the parks. Of the 550 parks on O'ahu, 91% of those parks fall within 300 m of a bus route. 
 
